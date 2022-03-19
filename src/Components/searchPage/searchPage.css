@@ -1,0 +1,29 @@
+.searchPage-container {
+  display: flex;
+  align-items: center;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  border-bottom: 0.5px solid black;
+}
+.searchBar > img {
+  height: 50px;
+  object-fit: contain;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.iconsBelowSearch {
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.searchArea {
+  margin-left: 20px;
+}

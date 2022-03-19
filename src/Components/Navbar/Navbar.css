@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container {
+  height: 5vh;
+  display: flex;
+  margin-top: 15px;
+}
+
+.nav-left {
+  display: flex;
+  flex: 0.5;
+}
+.nav-right {
+  display: flex;
+  flex: 0.5;
+  align-items: center;
+  justify-content: end;
+  margin: 2.5px;
+}
+
+.nav-right-item {
+  margin: 10px;
+  font-family: "sans-serif";
+  font-size: 15px;
+}

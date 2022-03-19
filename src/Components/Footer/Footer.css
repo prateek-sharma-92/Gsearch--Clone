@@ -1,0 +1,31 @@
+.footer-container {
+  position: absolute;
+  bottom: 0;
+}
+
+.Footer1 {
+  padding: 15px 30px;
+  border-bottom: 1px solid grey;
+  font-size: 15px;
+  color: #70757a;
+  width: 100vw;
+  background-color: #ebeef1;
+  margin-left: 30px;
+}
+
+.Footer2 {
+  padding: 15px 30px;
+  font-size: 15px;
+  color: #70757a;
+  width: 100vw;
+  background-color: #ebeef1;
+  margin-left: 15px;
+}
+
+.Footer2 > a {
+  margin: 15px;
+  font-size: 15px;
+  color: #70757a;
+  cursor: pointer;
+  text-decoration: none;
+}
