@@ -8,7 +8,7 @@ function SearchResults({ item }) {
       <div className="resultUpperPortion">
         {/* <img alt="Thumbnail" src="/" /> */}
         <div className="resultText">
-          <a href="/">{item.displayLink}</a>
+          <a href="/">{item.link}</a>
         </div>
       </div>
       <div className="resultLowerPortion">
