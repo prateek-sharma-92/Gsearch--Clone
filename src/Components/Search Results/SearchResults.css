@@ -1,0 +1,12 @@
+.resultUpperPortion {
+  margin-left: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+.resultUpperPortion > img {
+  object-fit: contain;
+  height: 50px;
+}
+.resultLowerPortion {
+  margin-left: 20px;
+}
