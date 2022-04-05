@@ -28,3 +28,10 @@
 .searchArea {
   margin-left: 20px;
 }
+
+.resultCount {
+  margin-left: 37px;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}

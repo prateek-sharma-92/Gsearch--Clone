@@ -41,8 +41,8 @@ function SearchPage() {
         </div>
       </div>
       <div className="Results">
-        <div className="resultCount">{`showing ${resultData?.searchInformation.formattedTotalResults} results in ${resultData?.searchInformation.formattedSearchTime} seconds`}</div>
-        <br /> <br />
+        <div className="resultCount">{`Showing  ${resultData?.searchInformation.formattedTotalResults} results in ${resultData?.searchInformation.formattedSearchTime} seconds`}</div>
+
         {(resultData?.items).map((item) => (
           <SearchResults item={item} />
         ))}
