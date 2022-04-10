@@ -6,7 +6,7 @@ function SearchResults({ item }) {
   return (
     <div className="result-container">
       <div className="resultUpperPortion">
-        {/* <img alt="Thumbnail" src={item.pagemap.cse_image[0].src} /> */}
+        <img alt="Thumbnail" src={item.pagemap.cse_image[0].src} />
         <div className="resultText">
           <a href={item.link}>{item.link}</a>
         </div>

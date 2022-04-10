@@ -4,9 +4,15 @@
   align-items: flex-end;
   margin-top: 25px;
 }
+
+.resultText {
+  align-items: center;
+  margin-bottom: 50px;
+}
 .resultUpperPortion > img {
   object-fit: contain;
-  height: 50px;
+  height: 100px;
+  margin-right: 20px;
 }
 .resultLowerPortion {
   margin-left: 20px;
